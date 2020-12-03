@@ -7,7 +7,7 @@ import Plotly from 'plotly.js'
 
 const drawPlot = () => {
   Plotly.newPlot('root',[{
-    z: [[1, 20, 30,24,55,45,33], [20, 1, 60,33,66,66,82], [30, 60, 1,67,88,89,100]],
+    z: [[1, 20, 30,24,55,45], [20, 1, 60,33,66,66], [30, 60, 1,67,88,89]],
     type: 'heatmap'
   }])}
 function App() {
